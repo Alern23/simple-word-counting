@@ -3,8 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <title>Simple Word Counting</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Importing Stylesheets-->
+    <link rel="stylesheet" href="css/stylesheet.css">
+
+    <!--Importing Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
+
+<div class="container">
+    <h1 class="title">Simple Word Counting</h1>
+    <textarea
+            placeholder="Enter your text"
+            class="txt-area"></textarea>
+
+    <div class="counting-div">
+        <div class="content">Characters : <span id="characterCount"> </span></div>
+        <div class="content">Words : <span id="wordCount"> </span></div>
+        <div class="content">Sentences : <span id="sentenceCount"> </span></div>
+        <div class="content">Paragraph : <span id="paragraphCount"></span></div>
+        <div class="content">Reading Time : <span id="readingTime"> </span></div>
+    </div>
+
+    <div class="keyword-div">
+        Top keywords :
+        <ul id="topKeywords"></ul>
+    </div>
+
+</div>
+
+
+<div class="footer-section">
+    <p class="footer-text">Made with Mindula Dilthushan &nbsp&nbsp ^_~ </p>
+</div>
+
+
+<script src="js/mainFunctions.js"></script>
 </body>
 </html>
