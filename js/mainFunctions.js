@@ -1,4 +1,3 @@
-"use strict";
 var input = document.querySelectorAll('textarea')[0],
     characterCount = document.querySelector('#characterCount'),
     wordCount = document.querySelector('#wordCount'),
